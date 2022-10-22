@@ -1,0 +1,1 @@
+async function o({fetch:e}){return{allCountries:(await e("https://restcountries.com/v3.1/all")).json()}}const s=Object.freeze(Object.defineProperty({__proto__:null,load:o},Symbol.toStringTag,{value:"Module"}));export{s as _,o as l};
